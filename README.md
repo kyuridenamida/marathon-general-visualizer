@@ -10,7 +10,7 @@ the local machines.
 
 ## デモ (Demo)
 
-### JSONデータを送れるようにしたあなたのプログラム 
+### JSONデータを送れるようにしたあなたのプログラム ([/client-code-examples/cpp/main.cpp](/client-code-examples/cpp/main.cpp))
 ![client-side](demo-program.gif)
 
 ### ブラウザにリアルタイムでレンダリング
@@ -76,9 +76,9 @@ curl --location --request POST 'http://localhost:8888/json/publish' \
 
 ![How it works](how-it-works.png)
 
-バックエンドはあなたのプログラムからHTTPを通じて任意のJSONメッセージを受取り、それをフロントエンドにそのまま渡します。
+バックエンド([/src-backend/index.ts](/src-backend/index.ts)) はあなたのプログラムからHTTPを通じて任意のJSONメッセージを受取り、それをフロントエンドにそのまま渡します。
 
-あなたのプログラムをHTTPを通じてjsonメッセージを送れるように改良してください。 またフロントエンド(src/App.tsx)にそれをビジュアライズするコードを書いてください。
+あなたのプログラムをHTTPを通じてjsonメッセージを送れるように改良してください([C++の例](/client-code-examples/cpp/main.cpp)) 。 またフロントエンド([src/App.tsx](/src/App.tsx))にそれをビジュアライズするコードを書いてください。
 
 実はバックエンドについて学ぶ必要があるケースはほとんどありません。
 
