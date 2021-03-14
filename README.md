@@ -1,11 +1,22 @@
 # Marathon General Visualizer
 
+
 Webブラウザで動作するマラソンマッチ用のローカル環境で動作する簡易リアルタイムビジュアライザフレームワークです。
 
 A general browser-based simple real-time visualization framework designed for the marathon match purpose, which works in
 the local machines.
 
 [English version README is available here](README-en.md)
+
+## デモ (Demo)
+
+### JSONデータを送れるようにしたあなたのプログラム 
+![client-side](demo-program.gif)
+
+### ブラウザにリアルタイムでレンダリング
+![frontend-side](demo-browser.gif)
+
+---
 
 ## 必要なソフトウェア
 

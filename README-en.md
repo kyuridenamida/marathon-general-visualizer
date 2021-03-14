@@ -2,6 +2,17 @@
 
 A general browser-based simple real-time visualization framework designed for the marathon match purpose, which works in the local machines.
 
+
+## Demo
+
+### Sending json data from your program
+![client-side](demo-program.gif)
+
+### Rendering the sent data real-time in Frontend 
+![frontend-side](demo-browser.gif)
+
+---
+
 ## Required software
 - npm (Node Package Manager)
 
