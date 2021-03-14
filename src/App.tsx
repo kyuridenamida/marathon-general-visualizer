@@ -68,6 +68,7 @@ const App = () => {
 
     useEffect(() => {
         // ページを開いたときにWebSocketからデータ受信したときの挙動(コールバック関数)を定義する。
+        socket.off("publish");
         socket.on("publish", (payload: Payload) => {
             setDataReceivingCount((currentCount) => currentCount + 1);
             if (payload.type == "draw") {
