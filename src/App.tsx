@@ -119,7 +119,7 @@ const App = () => {
                     Data Receiving Count: {dataReceivingCount}
                 </p>
                 <p>
-                    clickedPoint: {clickedPoint ? `(${clickedPoint.x.toFixed(3)}, ${clickedPoint.y.toFixed(3)})}` : "(Not clicked yet)"}
+                    clickedPoint: {clickedPoint ? `(${clickedPoint.x.toFixed(3)}, ${clickedPoint.y.toFixed(3)})` : "(Not clicked yet)"}
                 </p>
                 <canvas width="1000" height="1000" id="mainCanvas"
                         onClick={(e) => {
