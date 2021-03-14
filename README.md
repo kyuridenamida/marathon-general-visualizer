@@ -39,7 +39,7 @@ JSONメッセージをあなたのプログラムからBackendに送信するた
 ### 長方形をレンダリングする
 
 ```sh
-curl --location --request POST 'http://localhost:3000/json/publish' \
+curl --location --request POST 'http://localhost:8888/json/publish' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "type": "draw",
@@ -53,7 +53,7 @@ curl --location --request POST 'http://localhost:3000/json/publish' \
 ### 指定した色でキャンバスをリセットする
 
 ```sh
-curl --location --request POST 'http://localhost:3000/json/publish' \
+curl --location --request POST 'http://localhost:8888/json/publish' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "type": "reset",
