@@ -74,7 +74,7 @@ curl --location --request POST 'http://localhost:8888/json/publish' \
 }'
 ```
 
-## 仕組み (How it works)!
+## 仕組み (How it works)
 
 ![How it works](how-it-works.png)
 
