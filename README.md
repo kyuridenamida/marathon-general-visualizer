@@ -32,9 +32,11 @@ the local machines.
 
 ## 使用法
 
-ビジュアライザ(フロントエンド+バックエンド)を起動するためには以下のコマンドをプロジェクトルートディレクトリで実行します。
+ビジュアライザ(フロントエンド+バックエンド)をインストール&起動するためには以下のコマンドを実行します。
 
 ```
+git clone git@github.com:kyuridenamida/marathon-general-visualizer.git # CLONE GIT REPOSITORY
+cd marathon-general-visualizer # Move to the repository root directory
 npm i # INSTALL PACKAGES
 npm start
 ```

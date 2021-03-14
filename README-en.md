@@ -25,10 +25,11 @@ A general browser-based simple real-time visualization framework designed for th
 
 ## How to use
 
-To start Visualizer (Frontend with auto-reload + Backend), run the following command in your terminal in the project root
-directory.
+To install & start Visualizer (Frontend with auto-reload + Backend), run the following command in your terminal.
 
 ```
+git clone git@github.com:kyuridenamida/marathon-general-visualizer.git # CLONE GIT REPOSITORY
+cd marathon-general-visualizer # Move to the repository root directory
 npm i # INSTALL PACKAGES
 npm start
 ```
