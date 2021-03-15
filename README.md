@@ -7,7 +7,7 @@ HTTP通信が行える限り、どんな言語で書かれたプログラムか�
 A general browser-based simple real-time visualization framework designed for the marathon match purpose, which works in
 the local machines([C++ Example](/client-code-examples/cpp/main.cpp)). 
 
-You can use this visualizer with your program written in any language as long as you implement JSON data sending logic via HTTP.
+You can use this visualizer with your own program written in any language as long as you implement JSON data sending logic via HTTP.
 
 [English version README is available here](README-en.md)
 
