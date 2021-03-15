@@ -1,6 +1,9 @@
 # Marathon General Visualizer
 
-A general browser-based simple real-time visualization framework designed for the marathon match purpose, which works in the local machines.
+A general browser-based simple real-time visualization framework designed for the marathon match purpose, which works in
+the local machines([C++ Example](/client-code-examples/cpp/main.cpp)). 
+
+You can use this visualizer with your own program written in any language as long as you implement JSON data sending logic via HTTP.
 
 
 ## Demo
