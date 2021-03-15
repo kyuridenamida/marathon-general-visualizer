@@ -1,10 +1,13 @@
 # Marathon General Visualizer
 
+Webブラウザからアクセスできるマラソンマッチ用のローカル環境で動作する簡易リアルタイムビジュアライザフレームワークです。
 
-Webブラウザで動作するマラソンマッチ用のローカル環境で動作する簡易リアルタイムビジュアライザフレームワークです。
+HTTP通信が行える限り、どんな言語で書かれたプログラムからでもビジュアライズ用のデータをWebブラウザに送信できます([C++の例](/client-code-examples/cpp/main.cpp))。
 
 A general browser-based simple real-time visualization framework designed for the marathon match purpose, which works in
-the local machines.
+the local machines([C++ Example](/client-code-examples/cpp/main.cpp)). 
+
+You can use this visualizer with your program written in any language as long as you implement JSON data sending logic via HTTP.
 
 [English version README is available here](README-en.md)
 
@@ -74,7 +77,7 @@ curl --location --request POST 'http://localhost:8888/json/publish' \
 }'
 ```
 
-## 仕組み (How it works)
+## 仕組み
 
 ![How it works](how-it-works.png)
 
